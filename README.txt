@@ -50,17 +50,16 @@ Similar functionality can be found at
 - test.test_support.temp_cwd
   (http://docs.python.org/3/library/test.html#test.support.temp_cwd)
   in the Python distribution
-
-    - temp_cwd is quite close to this module,
-      unfortunately it is not in the standard library,
-      but packaged together with the regression tests.
-      temp_cwd's source shows some special cases
-      and runs the code in a directory that can be guessed
+  - temp_cwd is quite close to this module,
+  unfortunately it is not in the standard library,
+  but packaged together with the regression tests.
+  temp_cwd's source shows some special cases
+  and runs the code in a directory that can be guessed
 
 - tempdir (https://bitbucket.org/another_thomas/tempdir)
 
 - tempdirs (https://github.com/thelinuxkid/tempdirs)
-    - for creating any number of temporary directories
+  - for creating any number of temporary directories
 
 - path.py (https://github.com/jaraco/path.py/blob/master/path.py)
-    - tempdir at the end of the file
+  - tempdir at the end of the file

@@ -54,5 +54,5 @@ class Test_within_temp_dir(unittest.TestCase):
         def f(a, *args, **kwargs):
             return (a, args, kwargs)
 
-        self.assertEqual(("a", ("b",), dict(c="c")), f("a", "b", c="c"))
-        self.assertEqual(("a", tuple(), dict(x="x")), f(a="a", x="x"))
+        self.assertEqual(('a', ('b',), dict(c='c')), f('a', 'b', c='c'))
+        self.assertEqual(('a', tuple(), dict(x='x')), f(a='a', x='x'))

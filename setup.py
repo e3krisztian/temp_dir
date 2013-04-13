@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='temp_dir',
-    version='0.1.0',
+    version='0.1.1',
 
     description='Execute block of code within a temporary directory',
     long_description=open('README.txt').read(),
